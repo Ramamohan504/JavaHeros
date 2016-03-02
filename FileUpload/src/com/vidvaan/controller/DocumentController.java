@@ -33,7 +33,6 @@ public class DocumentController {
 		try {
 			map.put("document", new Document());
 			map.put("documentList", documentDao.list());
-			System.out.println("ramamohan");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
